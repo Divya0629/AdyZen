@@ -50,6 +50,8 @@
             <asp:Button ID="Add" runat="server" Text="Add Series" OnClick="Add_Click" CssClass="btn btn-success me-2" />
             <asp:Button ID="search" runat="server" Text="Search" OnClick="search_Click" CssClass="btn btn-success me-2" />
             <asp:Button ID="Refresh" runat="server" Text="Refresh" OnClick="Refresh_Click" CssClass="btn btn-success me-2" />
+            <asp:Button ID="btnReport" runat="server" Text="Report" OnClick="Rep_Click" CssClass="btn btn-success me-2" />
+
         </div>
 
         <div class="mt-4">

@@ -59,17 +59,14 @@ C:\Users\link2\source\repos\AdyZen\AdyZen\obj\Debug\AdyZen.dll
 C:\Users\link2\source\repos\AdyZen\AdyZen\obj\Debug\AdyZen.pdb
 C:\Users\link2\source\repos\AdyZen\AdyZen\bin\BusinessAccessLayer.dll
 C:\Users\link2\source\repos\AdyZen\AdyZen\bin\DataAccessLayer.dll
-C:\Users\link2\source\repos\AdyZen\AdyZen\bin\Shared.dll
 C:\Users\link2\source\repos\AdyZen\AdyZen\bin\BusinessAccessLayer.pdb
 C:\Users\link2\source\repos\AdyZen\AdyZen\bin\DataAccessLayer.pdb
-C:\Users\link2\source\repos\AdyZen\AdyZen\bin\Shared.pdb
 C:\Users\link2\source\repos\AdyZen\AdyZen\bin\System.Configuration.ConfigurationManager.dll
 C:\Users\link2\source\repos\AdyZen\AdyZen\bin\System.Configuration.ConfigurationManager.xml
 C:\Users\link2\source\repos\AdyZen\AdyZen\bin\EntityFramework.dll
 C:\Users\link2\source\repos\AdyZen\AdyZen\bin\EntityFramework.SqlServer.dll
 C:\Users\link2\source\repos\AdyZen\AdyZen\bin\BusinessAccessLayer.dll.config
 C:\Users\link2\source\repos\AdyZen\AdyZen\bin\DataAccessLayer.dll.config
-C:\Users\link2\source\repos\AdyZen\AdyZen\bin\Shared.dll.config
 C:\Users\link2\source\repos\AdyZen\AdyZen\bin\EntityFramework.xml
 C:\Users\link2\source\repos\AdyZen\AdyZen\bin\EntityFramework.SqlServer.xml
 C:\Users\link2\source\repos\AdyZen\AdyZen\bin\Newtonsoft.Json.dll

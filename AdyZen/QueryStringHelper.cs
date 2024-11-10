@@ -8,7 +8,7 @@ namespace AdyZen
 {
     public class QueryStringHelper
     {
-        private static readonly string EncryptionKey = "my_secret_key"; // Use a better key for production!
+        private static readonly string EncryptionKey = "my_secret_key";
 
         public static string Encrypt(string text)
         {
@@ -19,9 +19,7 @@ namespace AdyZen
 
         public static string Decrypt(string encryptedText)
         {
-            System.Diagnostics.Debug.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
 
-            System.Diagnostics.Debug.WriteLine(encryptedText);
             byte[] textBytes = Convert.FromBase64String(encryptedText);
             string text = Encoding.UTF8.GetString(textBytes);
             return text;

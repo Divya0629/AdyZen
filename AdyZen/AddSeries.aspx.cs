@@ -78,7 +78,6 @@ namespace AdyZen
                 sl.MatchStatus = match_status.SelectedValue;
                 sl.startdate = DateTime.ParseExact(start_date.Text, "yyyy-MM-dd", null);
                 sl.enddate = DateTime.ParseExact(end_date.Text, "yyyy-MM-dd", null);
-                System.Diagnostics.Debug.WriteLine(sl.startdate);
                 sl.IsActive = active_status.SelectedIndex;
                 sl.Description = txtDesc.Text;
 

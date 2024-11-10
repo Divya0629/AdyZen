@@ -3,44 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\link2\\source\\repos\\AdyZen\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|C:\\Users\\link2\\source\\repos\\AdyZen\\adyzen\\manageseries.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|C:\\Users\\link2\\source\\repos\\AdyZen\\adyzen\\reportgen.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|solutionrelative:adyzen\\reportgen.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|c:\\users\\link2\\source\\repos\\adyzen\\adyzen\\manageseries.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|solutionrelative:adyzen\\manageseries.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|C:\\Users\\link2\\source\\repos\\AdyZen\\adyzen\\addseries.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|solutionrelative:adyzen\\addseries.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|C:\\Users\\link2\\source\\repos\\AdyZen\\adyzen\\addseries.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|solutionrelative:adyzen\\addseries.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|C:\\Users\\link2\\source\\repos\\AdyZen\\adyzen\\manageseries.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|solutionrelative:adyzen\\manageseries.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|c:\\users\\link2\\source\\repos\\adyzen\\adyzen\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|solutionrelative:adyzen\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|C:\\Users\\link2\\source\\repos\\AdyZen\\adyzen\\addseries.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|solutionrelative:adyzen\\addseries.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|C:\\Users\\link2\\source\\repos\\AdyZen\\adyzen\\querystringhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|solutionrelative:adyzen\\querystringhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{527CBDC9-3F64-4ACB-9806-FB8612D42A75}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\link2\\source\\repos\\AdyZen\\dataaccesslayer\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{527CBDC9-3F64-4ACB-9806-FB8612D42A75}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|c:\\users\\link2\\source\\repos\\adyzen\\adyzen\\manageseriesservice.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|solutionrelative:adyzen\\manageseriesservice.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{527CBDC9-3F64-4ACB-9806-FB8612D42A75}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\link2\\source\\repos\\AdyZen\\dataaccesslayer\\errorlogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{527CBDC9-3F64-4ACB-9806-FB8612D42A75}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\errorlogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|C:\\Users\\link2\\source\\repos\\AdyZen\\adyzen\\addseries.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|solutionrelative:adyzen\\addseries.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64505D13-3409-4D90-BBA4-9D7DE4E23DFC}|BusinessAccessLayer\\BusinessAccessLayer.csproj|C:\\Users\\link2\\source\\repos\\AdyZen\\businessaccesslayer\\bal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64505D13-3409-4D90-BBA4-9D7DE4E23DFC}|BusinessAccessLayer\\BusinessAccessLayer.csproj|solutionrelative:businessaccesslayer\\bal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{527CBDC9-3F64-4ACB-9806-FB8612D42A75}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\link2\\source\\repos\\AdyZen\\dataaccesslayer\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{527CBDC9-3F64-4ACB-9806-FB8612D42A75}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{527CBDC9-3F64-4ACB-9806-FB8612D42A75}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\link2\\source\\repos\\AdyZen\\dataaccesslayer\\errorlogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{527CBDC9-3F64-4ACB-9806-FB8612D42A75}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\errorlogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{527CBDC9-3F64-4ACB-9806-FB8612D42A75}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\link2\\source\\repos\\AdyZen\\dataaccesslayer\\serieslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|C:\\Users\\link2\\source\\repos\\AdyZen\\adyzen\\reportgen.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|solutionrelative:adyzen\\reportgen.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|c:\\users\\link2\\source\\repos\\adyzen\\adyzen\\reportgen.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7A0EF5B3-3798-4B90-8D9A-6E7DB6208221}|AdyZen\\AdyZen.csproj|solutionrelative:adyzen\\reportgen.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,50 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "bootstrap.css",
-              "DocumentMoniker": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\Content\\bootstrap.css",
-              "RelativeDocumentMoniker": "AdyZen\\Content\\bootstrap.css",
-              "ToolTip": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\Content\\bootstrap.css",
-              "RelativeToolTip": "AdyZen\\Content\\bootstrap.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-10T13:35:04.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ManageSeries.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\ManageSeries.aspx.cs",
-              "RelativeDocumentMoniker": "AdyZen\\ManageSeries.aspx.cs",
-              "ToolTip": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\ManageSeries.aspx.cs",
-              "RelativeToolTip": "AdyZen\\ManageSeries.aspx.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T16:03:13.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DAL.cs",
-              "DocumentMoniker": "C:\\Users\\link2\\source\\repos\\AdyZen\\DataAccessLayer\\DAL.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\DAL.cs",
-              "ToolTip": "C:\\Users\\link2\\source\\repos\\AdyZen\\DataAccessLayer\\DAL.cs",
-              "RelativeToolTip": "DataAccessLayer\\DAL.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFMAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T06:21:34.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ManageSeries.aspx",
               "DocumentMoniker": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\ManageSeries.aspx",
               "RelativeDocumentMoniker": "AdyZen\\ManageSeries.aspx",
@@ -118,20 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddSeries.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\AddSeries.aspx.cs",
-              "RelativeDocumentMoniker": "AdyZen\\AddSeries.aspx.cs",
-              "ToolTip": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\AddSeries.aspx.cs",
-              "RelativeToolTip": "AdyZen\\AddSeries.aspx.cs",
-              "ViewState": "AgIAAM0AAAAAAAAAAAAAANEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T07:39:15.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AddSeries.aspx",
               "DocumentMoniker": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\AddSeries.aspx",
               "RelativeDocumentMoniker": "AdyZen\\AddSeries.aspx",
@@ -140,19 +80,6 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-11-04T17:52:04.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ManageSeriesService.asmx.cs",
-              "DocumentMoniker": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\ManageSeriesService.asmx.cs",
-              "RelativeDocumentMoniker": "AdyZen\\ManageSeriesService.asmx.cs",
-              "ToolTip": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\ManageSeriesService.asmx.cs",
-              "RelativeToolTip": "AdyZen\\ManageSeriesService.asmx.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAIwBsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T07:21:28.23Z",
               "EditorCaption": ""
             },
             {
@@ -170,33 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "QueryStringHelper.cs",
-              "DocumentMoniker": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\QueryStringHelper.cs",
-              "RelativeDocumentMoniker": "AdyZen\\QueryStringHelper.cs",
-              "ToolTip": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\QueryStringHelper.cs",
-              "RelativeToolTip": "AdyZen\\QueryStringHelper.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T14:40:47.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "BAL.cs",
-              "DocumentMoniker": "C:\\Users\\link2\\source\\repos\\AdyZen\\BusinessAccessLayer\\BAL.cs",
-              "RelativeDocumentMoniker": "BusinessAccessLayer\\BAL.cs",
-              "ToolTip": "C:\\Users\\link2\\source\\repos\\AdyZen\\BusinessAccessLayer\\BAL.cs",
-              "RelativeToolTip": "BusinessAccessLayer\\BAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T08:39:24.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "SeriesList.cs",
               "DocumentMoniker": "C:\\Users\\link2\\source\\repos\\AdyZen\\DataAccessLayer\\SeriesList.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\SeriesList.cs",
@@ -209,20 +110,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ReportGen.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\ReportGen.aspx.cs",
-              "RelativeDocumentMoniker": "AdyZen\\ReportGen.aspx.cs",
-              "ToolTip": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\ReportGen.aspx.cs",
-              "RelativeToolTip": "AdyZen\\ReportGen.aspx.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "BAL.cs",
+              "DocumentMoniker": "C:\\Users\\link2\\source\\repos\\AdyZen\\BusinessAccessLayer\\BAL.cs",
+              "RelativeDocumentMoniker": "BusinessAccessLayer\\BAL.cs",
+              "ToolTip": "C:\\Users\\link2\\source\\repos\\AdyZen\\BusinessAccessLayer\\BAL.cs",
+              "RelativeToolTip": "BusinessAccessLayer\\BAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T11:47:49.242Z",
+              "WhenOpened": "2024-11-04T08:39:24.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
+              "Title": "QueryStringHelper.cs",
+              "DocumentMoniker": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\QueryStringHelper.cs",
+              "RelativeDocumentMoniker": "AdyZen\\QueryStringHelper.cs",
+              "ToolTip": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\QueryStringHelper.cs",
+              "RelativeToolTip": "AdyZen\\QueryStringHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T14:40:47.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ReportGen.aspx",
               "DocumentMoniker": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\ReportGen.aspx",
               "RelativeDocumentMoniker": "AdyZen\\ReportGen.aspx",
@@ -231,6 +145,58 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-11-08T11:29:13.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DAL.cs",
+              "DocumentMoniker": "C:\\Users\\link2\\source\\repos\\AdyZen\\DataAccessLayer\\DAL.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DAL.cs",
+              "ToolTip": "C:\\Users\\link2\\source\\repos\\AdyZen\\DataAccessLayer\\DAL.cs",
+              "RelativeToolTip": "DataAccessLayer\\DAL.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAAAJYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T06:21:34.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageSeries.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\ManageSeries.aspx.cs",
+              "RelativeDocumentMoniker": "AdyZen\\ManageSeries.aspx.cs",
+              "ToolTip": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\ManageSeries.aspx.cs",
+              "RelativeToolTip": "AdyZen\\ManageSeries.aspx.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAvwF4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:03:13.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddSeries.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\AddSeries.aspx.cs",
+              "RelativeDocumentMoniker": "AdyZen\\AddSeries.aspx.cs",
+              "ToolTip": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\AddSeries.aspx.cs",
+              "RelativeToolTip": "AdyZen\\AddSeries.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T07:39:15.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReportGen.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\ReportGen.aspx.cs",
+              "RelativeDocumentMoniker": "AdyZen\\ReportGen.aspx.cs",
+              "ToolTip": "C:\\Users\\link2\\source\\repos\\AdyZen\\AdyZen\\ReportGen.aspx.cs",
+              "RelativeToolTip": "AdyZen\\ReportGen.aspx.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T11:47:49.242Z",
               "EditorCaption": ""
             }
           ]

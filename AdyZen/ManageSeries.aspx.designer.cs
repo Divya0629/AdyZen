@@ -96,6 +96,15 @@ namespace AdyZen
         protected global::System.Web.UI.WebControls.Button Refresh;
 
         /// <summary>
+        /// btnReport control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnReport;
+
+        /// <summary>
         /// rptSeries control.
         /// </summary>
         /// <remarks>
