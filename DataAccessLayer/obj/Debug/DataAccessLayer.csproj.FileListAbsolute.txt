@@ -1,0 +1,16 @@
+C:\Users\link2\source\repos\AdyZen\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\link2\source\repos\AdyZen\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\link2\source\repos\AdyZen\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\link2\source\repos\AdyZen\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\link2\source\repos\AdyZen\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\link2\source\repos\AdyZen\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\link2\source\repos\AdyZen\DataAccessLayer\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\link2\source\repos\AdyZen\DataAccessLayer\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\link2\source\repos\AdyZen\DataAccessLayer\obj\Debug\DataAcce.E67BD773.Up2Date
+C:\Users\link2\source\repos\AdyZen\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\link2\source\repos\AdyZen\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\link2\source\repos\AdyZen\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\link2\source\repos\AdyZen\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\link2\source\repos\AdyZen\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\link2\source\repos\AdyZen\DataAccessLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\link2\source\repos\AdyZen\DataAccessLayer\bin\Debug\Newtonsoft.Json.xml
