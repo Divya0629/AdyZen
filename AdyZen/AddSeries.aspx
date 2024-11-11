@@ -125,12 +125,5 @@
         </div>
         <asp:Label ID="lblmsg" runat="server" CssClass="mt-5 d-block alert alert-success"></asp:Label>
     </form>
-     <script type="text/javascript">
-     $(document).ready(function () {
-         $('#Cancel').on("click", function () {
-             window.location.href="ManageSeries.aspx"
-         });
-     });
-     </script>
 </body>
 </html>

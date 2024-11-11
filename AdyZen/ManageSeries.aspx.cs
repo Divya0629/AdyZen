@@ -40,13 +40,6 @@ namespace AdyZen
             start_date.Text = "";
             end_date.Text = "";
         }
-
-        //private string Encrypt(string text)
-        //{
-        //    return QueryStringHelper.Encrypt(text);
-        //  //  return Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(text));
-        //}
-
         protected string GetEncryptedUrl(string mode, int seriesId, int sapid)
         {
             string encryptedMode = QueryStringHelper.Encrypt(mode);
@@ -93,6 +86,59 @@ namespace AdyZen
         protected void Rep_Click(object sender, EventArgs e)
         {
             Response.Redirect("ReportGen.aspx");
+        }
+
+        public string GetGenderText(int value)
+        {
+            switch (value)
+            {
+                case 1:
+                    return "Mens";
+                case 2:
+                    return "Womens";
+                case 3:
+                    return "Others";
+                default:
+                    return "Unknown Option";
+            }
+        }
+
+        public string GetTrophyText(int value)
+        {
+            switch (value)
+            {
+                case 1:
+                    return "Asia Cup";
+                case 2:
+                    return "ICC WC T20";
+                case 3:
+                    return "ICC WC ODI";
+                case 4:
+                    return "IPL";
+                default:
+                    return "Unknown Option";
+            }
+        }
+
+        public string GetMatchText(int value)
+        {
+            switch (value)
+            {
+                case 1:
+                    return "ODI";
+                case 2:
+                    return "TEST";
+                case 3:
+                    return "T20I";
+                case 4:
+                    return "LIST A";
+                case 5:
+                    return "T20(Domestic)";
+                case 6:
+                    return "First Class";
+                default:
+                    return "Unknown Option";
+            }
         }
     }
 }

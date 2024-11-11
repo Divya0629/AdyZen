@@ -93,10 +93,10 @@
 
 
                                 <td><%# Eval("SeriesType") %></td>
-                                <td><%# Eval("SeriesMatchType") %></td>
-                                <td><%# Eval("Gender") %></td>
+                                <td><%# GetMatchText(Convert.ToInt32(Eval("SeriesMatchType"))) %></td>
+                                <td><%# GetGenderText(Convert.ToInt32(Eval("Gender"))) %></td>
                                 <td><%# Eval("SeriesYear") %></td>
-                                <td><%# Eval("TrophyType") %></td>
+                                <td><%# GetTrophyText(Convert.ToInt32(Eval("TrophyType"))) %></td>
                                 <td><%# DataBinder.Eval(Container.DataItem, "SeriesStartDate", "{0:yyyy-MM-dd}") %></td>
                                 <td><%# DataBinder.Eval(Container.DataItem, "SeriesEndDate", "{0:yyyy-MM-dd}") %></td>
 

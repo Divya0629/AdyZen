@@ -36,18 +36,22 @@ namespace AdyZen
             if (selectedValues.Count > 0)
             {
 
-                GenerateReport(selectedValues);
+                DataTable matrixData = TransformToMatrix(GenerateReport(selectedValues), selectedValues);
+
+                gvReport.DataSource = matrixData;
+                gvReport.DataBind();
             }
 
         }
-        private void GenerateReport(List<string> selectedValues)
+        private DataTable GenerateReport(List<string> selectedValues)
         {
 
             string query = @"
             SELECT distinct SeriesYear,  MatchFormat, Gender, COUNT(*) AS SeriesCount
             FROM tbl_Series
             WHERE SeriesYear IN ({0})
-            GROUP BY SeriesYear,  MatchFormat, Gender";
+            GROUP BY SeriesYear,  MatchFormat, Gender
+            Order by SeriesYear, MatchFormat";
 
             DataTable dt = new DataTable();
 
@@ -78,16 +82,31 @@ namespace AdyZen
                             SqlDataAdapter da = new SqlDataAdapter(command);
 
                             da.Fill(dt);
+                            dt.Columns.Add("Gender_text", typeof(string));
+                            foreach (DataRow row in dt.Rows) {
+                                if (row["Gender"].ToString() == "1")
+                                {
+                                    row["Gender_text"] = "Mens";
+                                }
+                                else if (row["Gender"].ToString() == "2")
+                                {
+                                    row["Gender_text"] = "Women";
+                                }
+                                else 
+                                {
+                                    row["Gender_text"] = "Others";
+                                }
+                            }
+                            dt.Columns.Remove("Gender");
+                            dt.Columns["Gender_text"].ColumnName = "Gender";
                         }
-
-                        gvReport.DataSource = dt;
-                        gvReport.DataBind();
                     }
                 }
             }
             catch (Exception ex) {
                 throw ex;
             }
+            return dt;
         }
 
         private void LoadData()
@@ -128,6 +147,54 @@ namespace AdyZen
                     lstSelectedValues.Items.Add(new ListItem(item.Text, item.Value));
                 }
             }
+        }
+
+        public DataTable TransformToMatrix(DataTable reportData, List<string> years)
+        {
+            DataTable matrixData = new DataTable();
+
+            matrixData.Columns.Add("MatchFormat");
+
+            foreach (var year in years)
+            {
+                matrixData.Columns.Add($"Year {year} Mens");
+                matrixData.Columns.Add($"Year {year} Women");
+                matrixData.Columns.Add($"Year {year} Other");
+            }
+
+            var matchFormats = reportData.AsEnumerable()
+                .Select(row => row.Field<string>("MatchFormat"))
+                .Distinct()
+                .ToList();
+
+            foreach (var format in matchFormats)
+            {
+                DataRow row = matrixData.NewRow();
+                row["MatchFormat"] = format;
+
+                foreach (var year in years)
+                {
+                    var menCount = reportData.AsEnumerable()
+                        .Where(r => r.Field<string>("MatchFormat") == format && r.Field<string>("SeriesYear") == year && r.Field<string>("Gender") == "Mens")
+                        .Sum(r => r.Field<int>("SeriesCount"));
+
+                    var womenCount = reportData.AsEnumerable()
+                        .Where(r => r.Field<string>("MatchFormat") == format && r.Field<string>("SeriesYear") == year && r.Field<string>("Gender") == "Women")
+                        .Sum(r => r.Field<int>("SeriesCount"));
+
+                    var otherCount = reportData.AsEnumerable()
+                        .Where(r => r.Field<string>("MatchFormat") == format && r.Field<string>("SeriesYear") == year && r.Field<string>("Gender") == "Other")
+                        .Sum(r => r.Field<int>("SeriesCount"));
+
+                    row[$"Year {year} Mens"] = menCount;
+                    row[$"Year {year} Women"] = womenCount;
+                    row[$"Year {year} Other"] = otherCount;
+                }
+
+                matrixData.Rows.Add(row);
+            }
+
+            return matrixData;
         }
     }
 
