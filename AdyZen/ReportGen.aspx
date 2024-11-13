@@ -21,7 +21,9 @@
         </asp:DropDownList>
 
         <asp:ListBox ID="lstSelectedValues" runat="server" SelectionMode="Multiple"></asp:ListBox>
-        <asp:Button ID="btnGenerateReport" Text="Generate Report" runat="server" OnClick="btnGenerateReport_Click" CssClass="btn btn-success" />
+        <asp:Button ID="btnGenerateReport" Text="Generate Report" runat="server" OnClick="btnGenerateReport_Click" CssClass="me-4 btn btn-success" />
+        <asp:Button ID="btnCancel" Text="Cancel" runat="server" CssClass="btn btn-success" OnClick="btnCancel_Click" />
+
 
         <asp:GridView ID="gvReport" runat="server" AutoGenerateColumns="True" CssClass="mt-5 table">
             

@@ -183,7 +183,7 @@ namespace AdyZen
                         .Sum(r => r.Field<int>("SeriesCount"));
 
                     var otherCount = reportData.AsEnumerable()
-                        .Where(r => r.Field<string>("MatchFormat") == format && r.Field<string>("SeriesYear") == year && r.Field<string>("Gender") == "Other")
+                        .Where(r => r.Field<string>("MatchFormat") == format && r.Field<string>("SeriesYear") == year && r.Field<string>("Gender") == "Others")
                         .Sum(r => r.Field<int>("SeriesCount"));
 
                     row[$"Year {year} Mens"] = menCount;
@@ -195,6 +195,11 @@ namespace AdyZen
             }
 
             return matrixData;
+        }
+
+        protected void btnCancel_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ManageSeries.aspx");
         }
     }
 

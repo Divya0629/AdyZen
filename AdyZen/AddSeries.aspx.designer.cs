@@ -60,6 +60,15 @@ namespace AdyZen
         protected global::System.Web.UI.WebControls.TextBox seriesName;
 
         /// <summary>
+        /// reqSeriesName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqSeriesName;
+
+        /// <summary>
         /// dropseriestype control.
         /// </summary>
         /// <remarks>
@@ -67,6 +76,15 @@ namespace AdyZen
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList dropseriestype;
+
+        /// <summary>
+        /// rfvseriestype control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvseriestype;
 
         /// <summary>
         /// series_status control.
@@ -78,6 +96,15 @@ namespace AdyZen
         protected global::System.Web.UI.WebControls.DropDownList series_status;
 
         /// <summary>
+        /// reqSeriesStatus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqSeriesStatus;
+
+        /// <summary>
         /// match_status control.
         /// </summary>
         /// <remarks>
@@ -85,6 +112,15 @@ namespace AdyZen
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList match_status;
+
+        /// <summary>
+        /// rfv_matchstatus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfv_matchstatus;
 
         /// <summary>
         /// match_format control.
@@ -114,6 +150,15 @@ namespace AdyZen
         protected global::System.Web.UI.WebControls.DropDownList gender;
 
         /// <summary>
+        /// rfvGender control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvGender;
+
+        /// <summary>
         /// year control.
         /// </summary>
         /// <remarks>
@@ -121,6 +166,15 @@ namespace AdyZen
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox year;
+
+        /// <summary>
+        /// reqYear control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqYear;
 
         /// <summary>
         /// trophy_type control.
@@ -132,6 +186,15 @@ namespace AdyZen
         protected global::System.Web.UI.WebControls.DropDownList trophy_type;
 
         /// <summary>
+        /// rfvtype control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvtype;
+
+        /// <summary>
         /// start_date control.
         /// </summary>
         /// <remarks>
@@ -139,6 +202,15 @@ namespace AdyZen
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox start_date;
+
+        /// <summary>
+        /// reqStartDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqStartDate;
 
         /// <summary>
         /// end_date control.
@@ -150,6 +222,24 @@ namespace AdyZen
         protected global::System.Web.UI.WebControls.TextBox end_date;
 
         /// <summary>
+        /// reqEndDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqEndDate;
+
+        /// <summary>
+        /// compDateValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator compDateValidator;
+
+        /// <summary>
         /// active_status control.
         /// </summary>
         /// <remarks>
@@ -157,6 +247,15 @@ namespace AdyZen
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList active_status;
+
+        /// <summary>
+        /// rfv_status control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfv_status;
 
         /// <summary>
         /// txtDesc control.

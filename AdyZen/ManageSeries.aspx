@@ -87,8 +87,7 @@
                                 <td>
                                     <a href="<%# GetEncryptedUrl("E", (int)Eval("SeriesId"), (int)Eval("SeriesAPI_ID")) %>">
                                         <%# Eval("SeriesName") %>
-
-                                 </a>
+                                    </a>
                                 </td>
 
 

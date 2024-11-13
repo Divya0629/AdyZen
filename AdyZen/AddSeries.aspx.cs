@@ -85,7 +85,7 @@ namespace AdyZen
                 {
                     string result = bal1.insert_series(sl);
                     lblmsg.Visible = true;
-                    if (result != null)
+                    if (result != null && Page.IsValid)
                     {
                         lblmsg.Text = "Inserted Succesfully";
                     }
@@ -158,20 +158,28 @@ namespace AdyZen
 
         protected void refresh_Click(object sender, EventArgs e)
         {
-            seriesName.Text = "";
-            year.Text = "";
-            start_date.Text = "";
-            end_date.Text = "";
-            dropseriestype.SelectedValue = "Select";
-            series_status.SelectedValue = "Scheduled";
-            match_status.SelectedValue = "Scheduled";
-            match_format.SelectedValue = "Select";
-            match_type.SelectedValue = "-1";
-            gender.SelectedValue = "Select";
-            active_status.SelectedValue = "Yes";
-            trophy_type.SelectedValue = "Select";
-            txtDesc.Text = "";
-            lblmsg.Visible = false;
+            if (PageMode == "A")
+            {
+                seriesName.Text = "";
+                year.Text = "";
+                start_date.Text = "";
+                end_date.Text = "";
+                dropseriestype.SelectedValue = "Select";
+                series_status.SelectedValue = "Scheduled";
+                match_status.SelectedValue = "Scheduled";
+                match_format.SelectedValue = "Select";
+                match_type.SelectedValue = "-1";
+                gender.SelectedValue = "Select";
+                active_status.SelectedValue = "Yes";
+                trophy_type.SelectedValue = "Select";
+                txtDesc.Text = "";
+                lblmsg.Visible = false;
+            }
+
+            else if (PageMode == "E")
+            {
+                LoadSeriesData(SeriesId, API_Id);
+            }
         }
 
         private void LoadSeriesData(int seriesId, int api_id)
@@ -208,7 +216,9 @@ namespace AdyZen
 
         protected void Cancel_Click(object sender, EventArgs e)
         {
-            Response.Redirect("ManageSeries.aspx");
+           
+                Response.Redirect("ManageSeries.aspx");
+            
         }
     }
 }
